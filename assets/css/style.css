@@ -62,6 +62,31 @@ footer {
 	width: 100%;
 	margin-bottom: 0%;
 }
-footer p {
+footer.footer {
+	border-top: 0.3em solid #4aaaa5;
+	background-color: #6a6b6d;
+	z-index: 6;
+}
+footer.footer p.text-muted {
+	color: #dee3ea;
 	margin-bottom: 0%;
+}
+div.portfolio-selection h4 {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: center;
+	position: relative;
+	bottom: 25px;
+/*	bottom: 3%;*/
+	z-index: 4;
+	padding: 2% 0%;
+}
+/*input.form-submit {
+	background-color: #4aaaa5;
+	color: white;
+}*/
+.btn-default {
+	background-image: linear-gradient(to bottom,#71d4cf 0,#4aaaa5 100%);
+	color: #fff;
 }
