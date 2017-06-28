@@ -37,7 +37,7 @@ h3 {
 	font-size: 1.5em;
 }
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
-	background-color: #4aaaa5;
+	background-color: rgba(74, 170, 165, 0.61803398875);
 }
 a {
 	color: #4aaaa5;
@@ -78,15 +78,25 @@ div.portfolio-selection h4 {
 	text-align: center;
 	position: relative;
 	bottom: 25px;
-/*	bottom: 3%;*/
 	z-index: 4;
 	padding: 2% 0%;
 }
-/*input.form-submit {
-	background-color: #4aaaa5;
-	color: white;
-}*/
 .btn-default {
 	background-image: linear-gradient(to bottom,#71d4cf 0,#4aaaa5 100%);
 	color: #fff;
+}
+header h1 {
+	margin-top: 0%;
+	margin-bottom: 0%;
+}
+@media screen and (max-width: 767px) {
+	header h1 {
+		width: 100%;
+		text-align: center;
+	}
+}
+@media screen and (max-width: 640px) {
+	div.main-content {
+		margin-top: 14%;
+	}
 }
