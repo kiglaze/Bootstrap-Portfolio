@@ -4,9 +4,10 @@ body {
 	background-image: url("../images/concrete-texture.png");
 	background-color: #dee3ea;
 }
+div.main-content {
+	overflow-y: scroll;
+}
 .connect-menu img {
-/*	width: 30%;
-	height: 30%;*/
 	display: inline;
 }
 .clearfix::after {
@@ -15,21 +16,14 @@ body {
 	clear: both;
 }
 header {
-/*	height: 10%;
-	width: 100%;
-	display: flex;
-	justify-content: space-between;*/
 	background-color: white;
-/*	position: fixed;
-	top: 0%;
-	z-index: 5;
-	border-bottom: 2px solid #dddddd;*/
 }
 .navbar-default h1.navbar-brand, .navbar-default h1.navbar-brand:hover {
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-size: 2em;
 	border-color: #ffffff;
+	height: 100%;
 }
 h2, h3 {
 	color: #4aaaa5;
@@ -47,4 +41,27 @@ h3 {
 }
 a {
 	color: #4aaaa5;
+}
+main {
+	margin: 10% 0% 10% 0%;
+}
+section, aside {
+	background-color: #ffffff;
+	padding: 2% 3% 2% 3%;
+}
+section div.portfolio-selection img {
+	width: 100%;
+}
+section {
+	margin-bottom: 2%;
+}
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	margin-bottom: 0%;
+}
+footer p {
+	margin-bottom: 0%;
 }
